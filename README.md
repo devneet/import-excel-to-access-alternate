@@ -15,12 +15,21 @@ This process automation has been developed using Bluerism RPA tool with followin
 - Upon successful validation, BOT will read the excel data using OLEDB driver.
 - Once, the data has been read BOT will first delete the existing records and then will insert all the records read in the prior step.
 - BOT finishes the overall execution in matter of seconds!
-- 
+
+#### DLL's Used :
+
+- Microsoft.Office.Interop.Access.dll
+- Microsoft.Office.Interop.Access.Dao.dll
+
+---
+**NOTE**
+
+__Ensure that the DLL listed in the DLL's folder are present in the Blueprism installation folder.__
+
+---
 #### Custom Objects Created :
 
 #### 1) MS Access VBO
------------------
-
 __The runmode of this business object is "background"__
 
 #### 1.1) Delete All Records
